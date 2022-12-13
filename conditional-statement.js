@@ -25,33 +25,29 @@ result(10);
 
 // switch statements
 
-var d = new Date();
-	
-switch(d.getDay()) {
+let day = 10;
+
+switch (day)
+{
     case 0:
-        document.write("Today is Sunday.");
-        break;
+    console.log("Today is monday");
+    break;
     case 1:
-        document.write("Today is Monday.");
-        break;
+    console.log("Today is sunday");
+    break;
     case 2:
-        document.write("Today is Tuesday.");
-        break;
+    console.log("Today is wensday");
+    break;
     case 3:
-        document.write("Today is Wednesday.");
-        break;
+    console.log("Today is saturday");
+    break;
     case 4:
-        document.write("Today is Thursday.");
-        break;
-    case 5:
-        document.write("Today is Friday.");
-        break;
-    case 6:
-        document.write("Today is Saturday.");
-        break;   
+    console.log("Today is Friday");
+    break;
     default:
-        document.write("No information available for that day.");
-        break;
+        console.log("No Day")
 }
+
+
 
 
