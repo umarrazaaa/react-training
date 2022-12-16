@@ -8,6 +8,8 @@
 
 //     console.log(output);
 
+console.log("Hello");
+
 const calculateArea = function(radius)
 {
 console.log("")
