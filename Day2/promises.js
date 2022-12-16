@@ -34,6 +34,8 @@ prom(6,6).then((result)=>{
 }
 );
 
+console.log("Panda");
+
 // below is the true false example
 
 // function prom(complete)
