@@ -1,4 +1,4 @@
-
+console.log("Maker");
 function prom()
 {
     return new Promise(function(resolve,reject)
