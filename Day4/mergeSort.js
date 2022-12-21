@@ -10,17 +10,9 @@ function mergeSort(array)
 
     let midpoint = Math.floor(array.length/2);
 
-    // console.log(midpoint);
-
-
     let leftHalf = array.slice(0,midpoint);
 
-    // console.log(leftHalf);
-
     let rightHalf = array.slice(midpoint);
-
-    // console.log(rightHalf);
-
 
     return merge(mergeSort(leftHalf),mergeSort(rightHalf));
 
